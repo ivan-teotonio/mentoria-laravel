@@ -1,0 +1,45 @@
+# Diretórios de dependências
+/vendor/
+/node_modules/
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Arquivos de cache e logs
+/bootstrap/cache/*
+!bootstrap/cache/.gitignore
+/storage/*
+!/storage/app
+!/storage/app/public
+!/storage/framework
+!/storage/framework/cache
+!/storage/framework/sessions
+!/storage/framework/views
+!/storage/logs
+/storage/logs/*
+
+# Arquivos de log e debug
+*.log
+*.env.backup
+*.env.example
+
+# Arquivos gerados pelo Docker
+docker-compose.override.yml
+.dockerignore
+
+# Configurações específicas de editores de código
+.idea/
+.vscode/
+*.swp
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações de build e cache
+/public/hot
+/public/storage
+/.phpunit.result.cache
+/.cache
+.phpunit.result.cache
